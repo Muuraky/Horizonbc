@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"> <!-- Link to DM Sans -->
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: black;
-            color: white;
-            margin: 0;
-            font-family: 'DM Sans', Arial, sans-serif; /* Updated to DM Sans */
-            text-align: center;
-        }
-        h1 {
-            font-size: 5rem; /* Increase the font size */
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coming Soon</title>
+  
+  <!-- Link to Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+  
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: black;
+      color: white;
+      margin: 0;
+      font-family: 'DM Sans', Arial, sans-serif; /* Updated to DM Sans */
+      text-align: center;
+      position: relative; /* To position the logo absolutely within the body */
+    }
+    
+    .logo-container {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    
+    .logo-container img {
+      height: 50px; /* Adjust the size as needed */
+      width: auto;
+    }
+    
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    
+    /* Add any additional styles as needed */
+  </style>
 </head>
 <body>
-    <h1>Coming Soon</h1>
+  
+  <!-- Logo Container -->
+  <div class="logo-container">
+    <a href="/">
+      <img src="https://i.imgur.com/your-direct-image-link.png" alt="Logo">
+    </a>
+  </div>
+  
+  <!-- Main Content -->
+  <h1>Coming Soon</h1>
+  
+  <!-- You can add more content here -->
+  
 </body>
 </html>
